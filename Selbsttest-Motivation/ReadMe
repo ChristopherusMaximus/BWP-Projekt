@@ -1,0 +1,3 @@
+Es werden 15 Behauptungen nacheinander gestellt, auf die der User reagieren muss.
+Jede Antwort auf eine Frage hat einen Wert von 0 bis 4, welche für den Anwender nicht erkennbar ist.
+Diese Werte werden addiert und der Anwender erhält am Ende des Tests ein Ergebnis.

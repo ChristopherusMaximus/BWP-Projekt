@@ -1,0 +1,24 @@
+[data-theme="dark"] {
+  background-color: #111 !important;
+  color: #eee;
+}
+
+[data-theme="dark"] .bg-light {
+  background-color: #333 !important;
+}
+
+[data-theme="dark"] .bg-white {
+  background-color: #000 !important;
+  color: rgb(201, 201, 201) !important;
+}
+
+[data-theme="dark"] .bg-black {
+  background-color: #eee !important;
+}
+
+[data-theme="dark"] hr {
+  border-color: rgb(110, 110, 110) !important;
+}
+:disabled{
+  color:rgb(187, 187, 187) !important;
+}

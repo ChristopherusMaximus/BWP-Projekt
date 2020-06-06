@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Motivationstest</title>
+  <link rel="icon" type="image/png" href="../../Medien/start_logo_400x400.png">
+  <meta name="Description" content="Startseite für Motivationstest und Fuehrungsempfehlung.">
+  <link href="../../Bootstrap 4.4.1/css/bootstrap.css" rel="stylesheet">
+  <meta name="theme-color" content="#5e5e5e">
+  <link rel="stylesheet" href="../../Bootstrap 4.4.1/dark-mode.css">
+  <link rel="stylesheet" href="../../Bootstrap 4.4.1/content-height.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="text-center container">
+<header>
+  <div class="row text-center">
+    <div class ="col-4">
+    </div>
+    <div class ="col-4 mt-1">
+      <a href="../../index.html">
+       <img id="headerlogo" src="../../Medien/Logo_GBS_Muenchen_300breite.png" alt="Titel Bild" class="img-fluid" >
+      </a>
+    </div>
+    <div class ="col-4">
+    </div>
+  </div>
+</header> 
+  <main role="main" >
+    <div class=" jumbotron-fluid rounded-lg mt-4 py-3 px-2 bg-light">
+      <h3 class="display-5 mb-3">Motivationstest</h3><hr/>
+      <div id="app">
+        <p>Im nachfolgendem werden Ihnen nacheinander 15 Behauptungen geäußert. <br>
+          Entscheiden Sie sich jeweils, in wie fern diese auf Sie zutrifft und klicken Sie anschließend auf "Weiter". <br>
+          Am Ende des Tests werden Sie eine Auswertung zu Ihrer Persönlichkeit erhalten.</p>
+        <button class="btn btn-primary "id="buttonStart">Start!</button>
+      </div>
+
+    </div>
+  </main>
+  <div class="p-5">
+
+  </div>
+  <footer class="footer mt-5 bg-light" style="position: fixed; left:0; bottom:0; width:100%;">
+      <div class="custom-control custom-switch">
+        <input type="checkbox" class="custom-control-input" id="darkSwitch">
+        <label class="custom-control-label" for="darkSwitch">Dark</label>
+      </div>  
+      <div class="container-fluid">
+        <span class="muted credit">I4A-AME 2019-2020</span>
+      </div>
+  </footer>
+
+  <script src="../../Bootstrap 4.4.1/dark-mode-switch.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>  
+  <script src="../../Bootstrap 4.4.1/js/bootstrap.bundle.min.js"></script>  
+  <script type="module" src="app.js"></script>
+
+</body>
+</html>
